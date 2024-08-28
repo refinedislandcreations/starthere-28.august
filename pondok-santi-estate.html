@@ -1,0 +1,67 @@
+---
+layout: default
+title: "Pondok Santi Estate: Luxury on Gili Trawangan, Indonesia"
+seo:
+  title: "Pondok Santi Estate Gili Trawangan: Luxury Accommodations & Exquisite Dining"
+  description: Discover Pondok Santi Estate on Gili Trawangan, where luxury meets tranquility. Enjoy exquisite dining, elegant accommodations, and breathtaking views. Escape the ordinary and experience unparalleled serenity and sophistication in paradise.
+  keywords:
+    - Pondok Santi Estate
+    - Gili Trawangan luxury accommodations
+    - Luxury resorts Indonesia
+    - Idyllic beach escapes Gili Trawangan
+    - Exquisite dining Gili Trawangan
+    - Serene vacation spots Indonesia
+    - Sophisticated beachfront estate
+    - Pondok Santi Estate reviews
+    - Gili Trawangan retreats
+    - Elegant resorts in Indonesia
+  social_image: /images/pondok-santi-estate-on-gili-trawangan-lombok.png
+  hide-from-google: true
+header:
+ - image: /images/pondok-santi-estate-on-gili-trawangan-lombok.png
+   position: 70% 50%
+   label: Drone view of Pondok Santi Estate on Gili Trawangan, showcasing the lush, tropical landscape and resort layout.
+   title: Pondok Santi Estate
+   text: "Elegance in Paradise: Experience Gili Trawangan"
+gallery-images:
+ - img-url: /images/ocean-view-villa-pondok-santi-estate-gili-trawangan-indonesia.png
+   img-alt: Ocean view villa at Pondok Santi Estate, Gili Trawangan, Indonesia
+ - img-url: /images/beautiful-restaurant-ijo-restaurant-pondok-santi-estate-gili-trawangan.jpg
+   img-alt: Beautiful restaurant Ijo at Pondok Santi Estate, Gili Trawangan
+ - img-url: /images/morning-light-at-pondok-santi-estate-gili-trawangan.png
+   img-alt: Morning light at Pondok Santi Estate, Gili Trawangan
+ - img-url: /images/evening-view-ijo-restaurant-pondok-santi-estate-gili-trawangan.png
+   img-alt: Evening view of Ijo restaurant at Pondok Santi Estate, Gili Trawangan
+ - img-url: /images/drone-shot-of-the-estate-pondok-santi-estate-gili-trawangan.png
+   img-alt: Drone shot of the estate at Pondok Santi Estate, Gili Trawangan
+ - img-url: /images/pondok-santi-estate-on-gili-trawangan-lombok.png
+   img-alt: Drone view of Pondok Santi Estate on Gili Trawangan, showcasing the lush, tropical landscape and resort layout.
+---
+
+<section class="max-w-screen-2xl mx-auto">
+  <div class="px-5p pt-15p sm:pt-10p xl:pt-5p pb-10p sm:pb-0">
+    <div>
+        <p class="pb-10p sm:pb-5p xl:pb-2p"> Set amidst the <strong>idyllic shores of Gili Trawangan, Pondok Santi Estate offers an escape from the ordinary. From our luxurious accommodations to our exquisite dining experiences, every moment is crafted to elevate your senses.</strong> Welcome to a world where serenity meets sophistication, where every detail is designed to enchant and inspire. Welcome to Pondok Santi Estate.
+        </p>
+        <div class="mb-15p sm:mb-10p xl:mb-5p sm:mt-2p md:mt-0">
+            <a href="https://pondoksanti.com/" class="button" aria-label="Visit Pondok Santi Estate website for more information">Visit Pondok Santi Estate</a>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="max-w-screen-2xl mx-auto">
+  <div class="px-5p pb-15p sm:pb-10p xl:pb-5p">
+    <!-- Gallery Images -->
+    <div class="sm:grid sm:grid-cols-3 gap-1 w-full overflow-x-auto" id="lightgallery">
+      {% for image in page.gallery-images %}
+      <a class="col-span-1" href="{{ image.img-url }}" aria-label="View larger version of the image">
+        <div class="aspect-square relative mb-2p">
+          <img loading="lazy" class="w-full h-full object-cover object-center rounded-xl sm:rounded-3xl" src="{{ image.img-url }}" alt="{{ image.img-alt }}">
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
